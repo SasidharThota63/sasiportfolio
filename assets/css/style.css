@@ -1879,4 +1879,45 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+  .service-icon-box ion-icon {
+    font-size: 40px;
+    color: hsl(45, 100%, 72%);
+}
+.testimonials,
+.modal-container {
+  display: none !important;
+}
+.availability-box {
+  background: var(--eerie-black-2);
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.availability-box h4 {
+  color: var(--orange-yellow-crayola);
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.availability-box p {
+  color: var(--light-gray);
+  line-height: 1.6;
+}
+.avatar-box {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 3px solid var(--orange-yellow-crayola);
+}
+
+.avatar-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 }
