@@ -1919,5 +1919,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   height: 100%;
   object-fit: cover;
 }
-
+.copyright {
+  text-align: center;
+  padding: 20px;
+  color: var(--light-gray);
+  font-size: 14px;
+  border-top: 1px solid var(--jet);
+  margin-top: 30px;
+}
 }
