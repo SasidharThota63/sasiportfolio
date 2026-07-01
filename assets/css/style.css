@@ -1883,10 +1883,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     font-size: 40px;
     color: hsl(45, 100%, 72%);
 }
-.testimonials,
-.modal-container {
-  display: none !important;
+
+
 }
+ /* This closes the @media (min-width: 1250px) */
 .availability-box {
   background: var(--eerie-black-2);
   border: 1px solid var(--jet);
@@ -1926,13 +1926,4 @@ textarea.form-input::-webkit-resizer { display: none; }
   font-size: 14px;
   border-top: 1px solid var(--jet);
   margin-top: 30px;
-}
-}
-}   /* This closes the @media (min-width: 1250px) */
-
-/* Hide unused sections */
-.testimonials,
-.modal-container,
-.clients {
-    display: none !important;
 }
